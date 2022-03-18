@@ -1,0 +1,25 @@
+export default {
+  red: "#fc5c65",
+  medium: "#6e6969",
+  black: "#000",
+  white: "#fff",
+  textWhite: "rgba(256, 256, 256, 0.9)",
+  light: "#e8e4e4",
+  light_red: "#ffcccb",
+  danger: "#ff5252",
+  dark: "#0c0c0c",
+
+  dark2: "#222831",
+  royalBlue: "#246ee9",
+  royalBlueLight: "#6a9cf0",
+  royalBlueSuperLight: "#f5f9fe",
+  green: "#4ec9b0",
+  blueBG1: "#246190",
+  blueBG2: "#276797",
+  blueBG3: "#0b3661",
+  blueBG4: "#12416d",
+
+  veryFadedWhite: "rgba(256, 256, 256, 0.1)",
+  fadedWhite: "rgba(256, 256, 256, 0.2)",
+  slightlyFadedWhite: "rgba(256, 256, 256, 0.5)",
+};
