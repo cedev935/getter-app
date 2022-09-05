@@ -20,7 +20,7 @@ export default function App() {
   }, []);
 
   return (
-    // the Provider wrapper provide all the sub components inside it to inherit the object "{ setupCompleted, setSetupCompleted }" by context
+    // the Provider wrapper allows all the sub components inside it to inherit the object "{ setupCompleted, setSetupCompleted }" by context
     <AuthContext.Provider value={{ setupCompleted, setSetupCompleted }}>
       <NavigationContainer ref={navigationRef} theme={navigationTheme}>
         {setupCompleted ? <AppNavigator /> : <SetupNavigator />}
